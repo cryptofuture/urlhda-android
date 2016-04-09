@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Urlhda.iml" filepath="$PROJECT_DIR$/.idea/modules/Urlhda.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/urlhda-android.iml" filepath="$PROJECT_DIR$/.idea/modules/urlhda-android.iml" />
     </modules>
   </component>
 </project>

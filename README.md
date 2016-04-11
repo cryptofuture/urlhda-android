@@ -1,6 +1,7 @@
 # urlhda-android
 Secure and open-source android application for URL shortening.  
-Android application part separated from [urlhda](https://github.com/cryptofuture/urlhda) project.
+Android application part separated from [urlhda](https://github.com/cryptofuture/urlhda) project.  
+I moved it to git submodule, since its easier to manage android application that way.
 
 ##Usage
 Change host in [index.html](https://raw.githubusercontent.com/cryptofuture/urlhda-android/master/app/src/main/assets/index.html), import to android studio and build apk (you can sign it with your personal key).

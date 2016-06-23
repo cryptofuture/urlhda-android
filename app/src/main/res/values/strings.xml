@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Urlhda</string>
+    <string name="app_name">HDA URL</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="long_url_hda_me_xxxxx"><![CDATA[Long URL -> hda.me/xxxxx]]></string>
+    <string name="shorten">Shorten</string>
+    <string name="clear">Clear</string>
+    <string name="copy">Copy</string>
+    <string name="share">Share</string>
+    <string name="settings">Settings</string>
 </resources>

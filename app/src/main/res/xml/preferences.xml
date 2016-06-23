@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:whatever="http://schemas.android.com/apk/res-auto">
+    <com.andreabaccega.widget.ValidatingEditTextPreference
+            android:title="Custom Hostname"
+            android:key="hostname"
+            android:defaultValue="https://hda.me"
+            android:inputType="textUri"
+            whatever:testType="webUrl"
+            android:summary="You can type custom URL for hostname here.\nFor use with own server.">
+    </com.andreabaccega.widget.ValidatingEditTextPreference>
+    <Preference
+            android:title="Privacy Policy"
+            android:summary="Click to see Privacy Policy signed version. Check --[ 2 ]-- for URL Shortener.">
+        <intent android:action="android.intent.action.VIEW"
+                android:data="https://hda.me/privacy_policy.txt" />
+    </Preference>
+    <Preference
+            android:title="About"
+            android:summary="Open-source URL shortener.">
+        <intent android:action="android.intent.action.VIEW"
+                android:data="https://github.com/cryptofuture/urlhda-android" />
+    </Preference>
+</PreferenceScreen>

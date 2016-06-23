@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WebView  xmlns:android="http://schemas.android.com/apk/res/android"
-          android:id="@+id/webview"
-          android:layout_width="fill_parent"
-          android:layout_height="fill_parent"
-/>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:whatever="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <com.andreabaccega.widget.FormEditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="textUri"
+            whatever:testType="webUrl"
+            android:textSize="16sp"
+            android:typeface="sans"
+            android:hint="@string/long_url_hda_me_xxxxx"
+            android:id="@+id/url" android:layout_gravity="center"
+    />
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/shorten"
+            android:textSize="12sp"
+            android:id="@+id/post" android:layout_gravity="end|center_vertical"/>
+    <ToggleButton
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textOff="Strong\n OFF"
+            android:textOn="Strong\n ON"
+            android:textSize="12sp"
+            android:id="@+id/strong" android:layout_gravity="start|center_vertical" android:checked="false"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clear"
+            android:id="@+id/clear" android:layout_gravity="start|bottom"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/copy"
+            android:id="@+id/copy" android:layout_gravity="end|bottom"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/share"
+            android:id="@+id/share" android:layout_gravity="center_horizontal|bottom"/>
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/settings"
+            android:contentDescription="@string/settings"
+            android:id="@+id/settings" android:layout_gravity="end|top"/>
+
+</FrameLayout>

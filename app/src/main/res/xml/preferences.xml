@@ -21,4 +21,8 @@
         <intent android:action="android.intent.action.VIEW"
                 android:data="https://github.com/cryptofuture/urlhda-android" />
     </Preference>
+    <Preference
+            android:title="Donate"
+            android:summary="BTC: 1N5czHaoSLukFSTq2ZJujaWGjkmBxv2dT9">
+    </Preference>
 </PreferenceScreen>

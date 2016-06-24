@@ -38,16 +38,17 @@
             android:layout_height="wrap_content"
             android:text="@string/copy"
             android:id="@+id/copy" android:layout_gravity="end|bottom"/>
-    <Button
+    <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/share"
-            android:id="@+id/share" android:layout_gravity="center_horizontal|bottom"/>
+            android:background="@drawable/share"
+            android:contentDescription="@string/share"
+            android:id="@+id/share" android:layout_gravity="end|top"/>
     <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/settings"
             android:contentDescription="@string/settings"
-            android:id="@+id/settings" android:layout_gravity="end|top"/>
+            android:id="@+id/settings" android:layout_gravity="center_horizontal|bottom"/>
 
 </FrameLayout>

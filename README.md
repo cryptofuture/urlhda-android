@@ -1,15 +1,19 @@
 # urlhda-android
-Secure and open-source android application for URL shortening.  
+Open-source android application for URL shortening.  
 Android application part separated from [urlhda](https://github.com/cryptofuture/urlhda) project.  
-I moved it to git submodule, since its easier to manage android application that way.
+I moved it to git submodule, since its easier to manage android application that way.  
+[<img src="https://f-droid.org/badge/get-it-on.png"
+      alt="Get it on F-Droid"
+      height="80">](https://f-droid.org/app/me.hda.urlhda)
+#####Features:  
+* [Strong URL] 15 symbols long uid for shorted URLs, 5 symbols by default.
+* Fast copy-paste. Copy button in android app.
+* Ability to share URLs.
 
-##Usage
-Change host in [index.html](https://raw.githubusercontent.com/cryptofuture/urlhda-android/master/app/src/main/assets/index.html), import to android studio and build apk (you can sign it with your personal key).
+### Configuring application for use with own [urlhda](https://github.com/cryptofuture/urlhda/) setup
+You need just install application and change hostname URL in application Settings (gear icon).
 
-Live example: [hda.me](https://hda.me)  
-You can also install Urlhda application from [F-droid](https://f-droid.org/repository/browse/?fdid=me.hda.urlhda) if you don't need your own URL shortener for android.
-
-## How it works
+### How it works
  <p align="center">
 <img src="https://raw.githubusercontent.com/cryptofuture/urlhda-android/master/gradle/img/Diagram1.png"/>
 </p>

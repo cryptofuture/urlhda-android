@@ -3,7 +3,7 @@ Open-source android application for URL shortening.
 Android application part separated from [urlhda](https://github.com/cryptofuture/urlhda) project.  
 I moved it to git submodule, since its easier to manage android application that way.
 #####Features:  
-* [Strong URL] 15 symbols long uid for shorted URLs, 5 symbols by default.
+* Strong URL - 15 symbols long uid for shorted URLs, 5 symbols by default.
 * Fast copy-paste. Copy button in android app.
 * Ability to share URLs.
 

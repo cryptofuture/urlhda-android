@@ -32,5 +32,5 @@ This will give you JSON-response back with the generated 5 character UID:
 
 With that you can go to for example to *https://website.name/abcd5* and you will be redirected to http://add.me
 
-##Other
-Bitcoin donate: **1N5czHaoSLukFSTq2ZJujaWGjkmBxv2dT9**
+### Other
+Bitcoin donate: 1N5czHaoSLukFSTq2ZJujaWGjkmBxv2dT9

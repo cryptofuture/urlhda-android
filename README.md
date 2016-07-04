@@ -7,7 +7,6 @@ I moved it to git submodule, since its easier to manage android application that
 * Fast copy-paste. Copy button in android app.
 * Ability to share URLs.
 
-### Install
 [<img src="https://f-droid.org/badge/get-it-on.png"
       alt="Get it on F-Droid"
       height="80">](https://f-droid.org/app/me.hda.urlhda)
